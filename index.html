@@ -43,9 +43,9 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Copy',
-      copy_success: 'Copied',
-      copy_failure: 'Copy failed'
+      copy_button: 'کپی',
+      copy_success: 'کپی شد',
+      copy_failure: 'کپی انجام نشد'
     },
     sidebarPadding: 40
   };
@@ -124,7 +124,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="تغییر ناوبری">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -138,12 +138,12 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>صفحه اصلی</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>بایگانی</a>
 
   </li>
   </ul>
@@ -172,112 +172,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-hans">
-    <link itemprop="mainEntityOfPage" href="http://www.soulauv.cn/2019/11/13/blog_draft/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Soulauv">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Soulauv的个人博客">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/13/blog_draft/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">blog_draft/Windows环境下搭建hexo框架博客</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2019-11-13 12:07:08 / Modified: 12:06:16" itemprop="dateCreated datePublished" datetime="2019-11-13T12:07:08+08:00">2019-11-13</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Windows10下搭建hexo博客"><a href="#Windows10下搭建hexo博客" class="headerlink" title="Windows10下搭建hexo博客"></a>Windows10下搭建hexo博客</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ol>
-<li>进入<a href="https://git-scm.com/" target="_blank" rel="noopener">Git官网</a>,或直接<a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/23216272/71c5a100-00d6-11ea-822c-0617e3aba1d7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191113T023831Z&X-Amz-Expires=300&X-Amz-Signature=0b309a0c0ffa097c60e68638cf898450ed5aadb34a9dfa912eff45d610bac9c5&X-Amz-SignedHeaders=host&actor_id=57254384&response-content-disposition=attachment%3B%20filename%3DGit-2.24.0.2-64-bit.exe&response-content-type=application%2Foctet-stream" target="_blank" rel="noopener">点击此处</a>开始下载</li>
-<li>全部默认安装</li>
-<li>安装完成后会在开始菜单出现<br><img src="TIM%E5%9B%BE%E7%89%8720191113104603.png" alt=""></li>
-</ol>
-<h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><ol>
-<li>进入<a href="http://nodejs.cn/" target="_blank" rel="noopener">nodejs中文网</a>，或<a href="https://npm.taobao.org/mirrors/node/v12.13.0/node-v12.13.0-x64.msi" target="_blank" rel="noopener">点击此处</a>下载64位安装包</li>
-<li>全部默认安装</li>
-<li>打开上一步图片中的Git Bash，输入  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
-<li>查看nodejs是否安装成功<br>若结果出现  ![](<pre><code>TIM图片20191113105727.png)  </code></pre>则安装成功</li>
-</ol>
-<h2 id="全局安装cnpm"><a href="#全局安装cnpm" class="headerlink" title="全局安装cnpm"></a>全局安装cnpm</h2><ol>
-<li>在Git Bash下输入   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
- 等待安装完成  </li>
-<li>输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
-若出现版本号则安装成功  <img src="TIM%E5%9B%BE%E7%89%8720191113110535.png" alt=""></li>
-</ol>
-<h2 id="安装hexo框架"><a href="#安装hexo框架" class="headerlink" title="安装hexo框架"></a>安装hexo框架</h2><ol>
-<li><p>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<p>进行安装</p>
-</li>
-<li><p>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<p>若出现版本号则安装成功<br><img src="TIM%E5%9B%BE%E7%89%8720191113110916.png" alt=""></p>
-<h2 id="初始化hexo博客"><a href="#初始化hexo博客" class="headerlink" title="初始化hexo博客"></a>初始化hexo博客</h2></li>
-<li><p>在某一位置(如在D盘根目录下)新建一文件夹(如命名为 hexo)<img src="TIM%E5%9B%BE%E7%89%8720191113111428.png" alt=""></p>
-</li>
-<li><p>右键打开Git Bash<br>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p> 此时文件夹中出现以下内容  <img src="TIM%E5%9B%BE%E7%89%8720191113111827.png" alt=""></p>
-</li>
-<li><p>启动博客<br>输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p> 出现<br> <img src="TIM%E5%9B%BE%E7%89%8720191113112223.png" alt=""><br> 将’’<a href="http://localhost:4000&quot;输入浏览器网址框中即可在本地访问" target="_blank" rel="noopener">http://localhost:4000&quot;输入浏览器网址框中即可在本地访问</a></p>
-</li>
-<li><p>输入”Crtl + C”断开</p>
-</li>
-</ol>
-<h2 id="将hexo博客部署到Github上"><a href="#将hexo博客部署到Github上" class="headerlink" title="将hexo博客部署到Github上"></a>将hexo博客部署到Github上</h2><ol>
-<li>创建自己的Github账号后在页面右上角点击New repository新建一个仓库  <img src="TIM%E5%9B%BE%E7%89%8720191113112758.png" alt=""></li>
-<li>按照下图格式进行命名  <img src="TIM%E5%9B%BE%E7%89%8720191113113044.png" alt="">最好和用户名相同</li>
-<li>在hexo目录下安装deployer插件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
-<li>设置_config.yml 文件<br>输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim _config.yml</span><br></pre></td></tr></table></figure>
-在文件最底部内容按图进行配置  ![](<pre><code>TIM图片20191113113710.png)</code></pre> 启动第二项 repo 为你的GitHub仓库地址位置如下图所示，复制粘贴即可<img src="TIM%E5%9B%BE%E7%89%8720191113113829.png" alt=""></li>
-<li>输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-hans">
     <link itemprop="mainEntityOfPage" href="http://www.soulauv.cn/2019/11/12/test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -300,10 +194,10 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">نوشته شده در</span>
               
 
-              <time title="Created: 2019-11-12 21:40:47 / Modified: 21:49:43" itemprop="dateCreated datePublished" datetime="2019-11-12T21:40:47+08:00">2019-11-12</time>
+              <time title="ایجاد شده: 2019-11-12 21:40:47 / تغییر یافته: 21:49:43" itemprop="dateCreated datePublished" datetime="2019-11-12T21:40:47+08:00">2019-11-12</time>
             </span>
 
           
@@ -322,67 +216,6 @@
 
 </code></pre></li>
 </ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-hans">
-    <link itemprop="mainEntityOfPage" href="http://www.soulauv.cn/2019/11/12/%E6%B5%8B%E8%AF%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Soulauv">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Soulauv的个人博客">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/12/%E6%B5%8B%E8%AF%95/" class="post-title-link" itemprop="url">测试</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2019-11-12 11:32:20 / Modified: 11:33:17" itemprop="dateCreated datePublished" datetime="2019-11-12T11:32:20+08:00">2019-11-12</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>#没有文章就推不上去？</p>
-<p>oh shit</p>
-<hr>
 
       
     </div>
@@ -421,10 +254,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          فهرست مطالب
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          نمای کلی
         </li>
       </ul>
 
@@ -443,8 +276,8 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">پست ها</span>
         </a>
       </div>
   </nav>
@@ -480,10 +313,10 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Soulauv</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  <div class="powered-by">قدرت گرفته از <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
+  <div class="theme-info">پوسته – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
   </div>
 
         
