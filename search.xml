@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Windows10环境下搭建hexo框架的博客</title>
+    <url>/2019/11/18/Windows10%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>test</title>
     <url>/2019/11/12/test/</url>
     <content><![CDATA[<h1 id="this-is-my-test-markdown-book"><a href="#this-is-my-test-markdown-book" class="headerlink" title="this is my test markdown book."></a>this is my test markdown book.</h1><ol>
