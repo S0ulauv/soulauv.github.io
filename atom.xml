@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.soulauv.cn/"/>
-  <updated>2019-11-22T19:02:18.910Z</updated>
+  <updated>2019-11-22T16:41:46.021Z</updated>
   <id>https://www.soulauv.cn/</id>
   
   <author>
@@ -17,21 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>beautiful_night</title>
-    <link href="https://www.soulauv.cn/2019/11/23/beautiful-night/"/>
-    <id>https://www.soulauv.cn/2019/11/23/beautiful-night/</id>
-    <published>2019-11-22T19:02:18.000Z</published>
-    <updated>2019-11-22T19:02:18.910Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>oh-man</title>
     <link href="https://www.soulauv.cn/2019/11/23/oh-man/"/>
     <id>https://www.soulauv.cn/2019/11/23/oh-man/</id>
@@ -39,58 +24,6 @@
     <updated>2019-11-22T16:41:46.021Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>my test</title>
-    <link href="https://www.soulauv.cn/2019/11/22/my-test/"/>
-    <id>https://www.soulauv.cn/2019/11/22/my-test/</id>
-    <published>2019-11-21T19:00:46.000Z</published>
-    <updated>2019-11-21T19:00:46.156Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Windows10环境下搭建hexo框架的博客</title>
-    <link href="https://www.soulauv.cn/2019/11/18/Windows10%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://www.soulauv.cn/2019/11/18/Windows10%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
-    <published>2019-11-18T15:05:55.000Z</published>
-    <updated>2019-11-18T15:05:55.434Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://www.soulauv.cn/2019/11/12/test/"/>
-    <id>https://www.soulauv.cn/2019/11/12/test/</id>
-    <published>2019-11-12T13:40:47.066Z</published>
-    <updated>2019-11-12T13:49:43.367Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="this-is-my-test-markdown-book"><a href="#this-is-my-test-markdown-book" class="headerlink" title="this is my test markdown book."></a>this is my test markdown book.</h1><ol><li>this is my life, i love the feeling<br><code>www.soulauv.cn</code><pre><code>int(main)</code></pre></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;this-is-my-test-markdown-book&quot;&gt;&lt;a href=&quot;#this-is-my-test-markdown-book&quot; class=&quot;headerlink&quot; title=&quot;this is my test markdown book.&quot;&gt;&lt;/
-      
     
     </summary>
     
