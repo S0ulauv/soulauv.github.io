@@ -3,30 +3,31 @@
   <entry>
     <title>Java 学习笔记</title>
     <url>/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Windows下常用快捷键</title>
-    <url>/2019/12/03/Windows%E4%B8%8B%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
-    <content><![CDATA[<ul>
-<li>Ctrl + Win + →    切换桌面</li>
+    <content><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul>
+<li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li>
+<li>JDK(Java Development Kit)即Java开发工具包</li>
+<li>JRE(Java Runtime Environment)即Java运行环境</li>
 </ul>]]></content>
   </entry>
   <entry>
-    <title>Linux 常用快捷键</title>
-    <url>/2019/12/01/Linux-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
-    <content><![CDATA[<h1 id="Linux-常用快捷键（随学习进度更新）"><a href="#Linux-常用快捷键（随学习进度更新）" class="headerlink" title="Linux 常用快捷键（随学习进度更新）"></a>Linux 常用快捷键（随学习进度更新）</h1><ul>
-<li>touch 创建新文件</li>
-</ul>]]></content>
-  </entry>
-  <entry>
-    <title>VS code 常用快捷键</title>
+    <title>各类快捷键</title>
     <url>/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
-    <content><![CDATA[<h1 id="VS-code-常用快捷键（随学习进度更新）"><a href="#VS-code-常用快捷键（随学习进度更新）" class="headerlink" title="VS code 常用快捷键（随学习进度更新）"></a>VS code 常用快捷键（随学习进度更新）</h1><ul>
+    <content><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul>
 <li>Ctrl + Shift + V  预览markdown文档</li>
 <li>Ctrl + /          批量注释或批量取消注释</li>
 <li>Ctrl + k后Ctrl + t 更换主题</li>
-</ul>]]></content>
+</ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul>
+<li><img src="/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/picture/1.png" alt="avatar">    插入本地图片</li>
+<li></li>
+</ul><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul>
+<li>touch 创建新文件</li>
+</ul><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><a id="more"></a>
+
+
+<ul>
+<li>Ctrl + Win + →    切换桌面</li>
+</ul>
+]]></content>
       <tags>
         <tag>VS code</tag>
       </tags>

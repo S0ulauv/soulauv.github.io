@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.soulauv.cn/"/>
-  <updated>2019-12-03T07:25:38.935Z</updated>
+  <updated>2019-12-03T07:37:41.918Z</updated>
   <id>https://www.soulauv.cn/</id>
   
   <author>
@@ -21,32 +21,15 @@
     <link href="https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2019-12-03T07:25:38.000Z</published>
-    <updated>2019-12-03T07:25:38.935Z</updated>
+    <updated>2019-12-03T07:37:41.918Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Windows下常用快捷键</title>
-    <link href="https://www.soulauv.cn/2019/12/03/Windows%E4%B8%8B%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    <id>https://www.soulauv.cn/2019/12/03/Windows%E4%B8%8B%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
-    <published>2019-12-03T03:46:41.000Z</published>
-    <updated>2019-12-03T03:47:17.173Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>Ctrl + Win + →    切换桌面</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul><li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li><li>JDK(Java Development Kit)即Java开发工具包</li><li>JRE(Java Runtime Environment)即Java运行环境</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;ul&gt;
-&lt;li&gt;Ctrl + Win + →    切换桌面&lt;/li&gt;
-&lt;/ul&gt;
+        &lt;h2 id=&quot;Java-概述&quot;&gt;&lt;a href=&quot;#Java-概述&quot; class=&quot;headerlink&quot; title=&quot;Java 概述&quot;&gt;&lt;/a&gt;Java 概述&lt;/h2&gt;&lt;h3 id=&quot;JDK-JRE-JVM-的关系&quot;&gt;&lt;a href=&quot;#JDK-JRE-JVM-的关系&quot; c
       
     
     </summary>
@@ -56,42 +39,26 @@
   </entry>
   
   <entry>
-    <title>Linux 常用快捷键</title>
-    <link href="https://www.soulauv.cn/2019/12/01/Linux-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    <id>https://www.soulauv.cn/2019/12/01/Linux-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
-    <published>2019-12-01T12:44:09.000Z</published>
-    <updated>2019-12-01T13:02:09.343Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Linux-常用快捷键（随学习进度更新）"><a href="#Linux-常用快捷键（随学习进度更新）" class="headerlink" title="Linux 常用快捷键（随学习进度更新）"></a>Linux 常用快捷键（随学习进度更新）</h1><ul><li>touch 创建新文件</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Linux-常用快捷键（随学习进度更新）&quot;&gt;&lt;a href=&quot;#Linux-常用快捷键（随学习进度更新）&quot; class=&quot;headerlink&quot; title=&quot;Linux 常用快捷键（随学习进度更新）&quot;&gt;&lt;/a&gt;Linux 常用快捷键（随学习进度更新）&lt;/h1&gt;&lt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>VS code 常用快捷键</title>
+    <title>各类快捷键</title>
     <link href="https://www.soulauv.cn/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>https://www.soulauv.cn/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
     <published>2019-12-01T12:16:05.000Z</published>
-    <updated>2019-12-03T03:09:04.548Z</updated>
+    <updated>2019-12-03T07:39:41.865Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="VS-code-常用快捷键（随学习进度更新）"><a href="#VS-code-常用快捷键（随学习进度更新）" class="headerlink" title="VS code 常用快捷键（随学习进度更新）"></a>VS code 常用快捷键（随学习进度更新）</h1><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li></ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul><li><img src="/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/picture/1.png" alt="avatar">    插入本地图片</li><li></li></ul><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul><li>touch 创建新文件</li></ul><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><a id="more"></a><ul><li>Ctrl + Win + →    切换桌面</li></ul>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;VS-code-常用快捷键（随学习进度更新）&quot;&gt;&lt;a href=&quot;#VS-code-常用快捷键（随学习进度更新）&quot; class=&quot;headerlink&quot; title=&quot;VS code 常用快捷键（随学习进度更新）&quot;&gt;&lt;/a&gt;VS code 常用快捷键（随学习进度更
-      
+      &lt;h2 id=&quot;VS-code-常用快捷键&quot;&gt;&lt;a href=&quot;#VS-code-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;VS code 常用快捷键&quot;&gt;&lt;/a&gt;VS code 常用快捷键&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ctrl + Shift + V  预览markdown文档&lt;/li&gt;
+&lt;li&gt;Ctrl + /          批量注释或批量取消注释&lt;/li&gt;
+&lt;li&gt;Ctrl + k后Ctrl + t 更换主题&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 id=&quot;Markdown-常用操作&quot;&gt;&lt;a href=&quot;#Markdown-常用操作&quot; class=&quot;headerlink&quot; title=&quot;Markdown 常用操作&quot;&gt;&lt;/a&gt;Markdown 常用操作&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/picture/1.png&quot; alt=&quot;avatar&quot;&gt;    插入本地图片&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 id=&quot;Linux-常用快捷键&quot;&gt;&lt;a href=&quot;#Linux-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Linux 常用快捷键&quot;&gt;&lt;/a&gt;Linux 常用快捷键&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;touch 创建新文件&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 id=&quot;Windows下常用快捷键&quot;&gt;&lt;a href=&quot;#Windows下常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Windows下常用快捷键&quot;&gt;&lt;/a&gt;Windows下常用快捷键&lt;/h2&gt;
     
     </summary>
     
