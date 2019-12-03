@@ -17,7 +17,7 @@
 <li>Ctrl + /          批量注释或批量取消注释</li>
 <li>Ctrl + k后Ctrl + t 更换主题</li>
 </ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul>
-<li>!<a href="图片路径">avatar</a>    插入本地图片</li>
+<li>![avatar](图片路径)    插入本地图片</li>
 <li></li>
 </ul><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul>
 <li>touch 创建新文件</li>
