@@ -7,7 +7,11 @@
 <li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li>
 <li>JDK(Java Development Kit)即Java开发工具包</li>
 <li>JRE(Java Runtime Environment)即Java运行环境<br><img src="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png" alt="avatar"></li>
-</ul>]]></content>
+</ul><a id="more"></a>
+<hr>
+<h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
   <entry>
     <title>各类快捷键</title>
@@ -18,8 +22,10 @@
 <li>Ctrl + k后Ctrl + t 更换主题</li>
 <li>Ctrl + Shift + P  打开控制命令行</li>
 </ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul>
-<li>![avatar](图片路径)    插入本地图片</li>
-<li></li>
+<li>![avatar](图片路径)    插入图片</li>
+<li>```  ```    两个三个反引号插入代码块</li>
+<li>Tab   Tab     两个Tab之间插入代码块</li>
+<li>``` 后键入所使用的语言实现代码高亮</li>
 </ul><a id="more"></a>
 
 <h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul>

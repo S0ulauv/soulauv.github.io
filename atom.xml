@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.soulauv.cn/"/>
-  <updated>2019-12-03T08:01:11.381Z</updated>
+  <updated>2019-12-03T08:23:27.114Z</updated>
   <id>https://www.soulauv.cn/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2019-12-03T07:25:38.000Z</published>
-    <updated>2019-12-03T08:01:11.381Z</updated>
+    <updated>2019-12-03T08:23:27.114Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul><li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li><li>JDK(Java Development Kit)即Java开发工具包</li><li>JRE(Java Runtime Environment)即Java运行环境<br><img src="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png" alt="avatar"></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul><li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li><li>JDK(Java Development Kit)即Java开发工具包</li><li>JRE(Java Runtime Environment)即Java运行环境<br><img src="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png" alt="avatar"></li></ul><a id="more"></a><hr><h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;Java-概述&quot;&gt;&lt;a href=&quot;#Java-概述&quot; class=&quot;headerlink&quot; title=&quot;Java 概述&quot;&gt;&lt;/a&gt;Java 概述&lt;/h2&gt;&lt;h3 id=&quot;JDK-JRE-JVM-的关系&quot;&gt;&lt;a href=&quot;#JDK-JRE-JVM-的关系&quot; c
-      
+      &lt;h2 id=&quot;Java-概述&quot;&gt;&lt;a href=&quot;#Java-概述&quot; class=&quot;headerlink&quot; title=&quot;Java 概述&quot;&gt;&lt;/a&gt;Java 概述&lt;/h2&gt;&lt;h3 id=&quot;JDK-JRE-JVM-的关系&quot;&gt;&lt;a href=&quot;#JDK-JRE-JVM-的关系&quot; class=&quot;headerlink&quot; title=&quot;JDK JRE JVM 的关系&quot;&gt;&lt;/a&gt;JDK JRE JVM 的关系&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关&lt;/li&gt;
+&lt;li&gt;JDK(Java Development Kit)即Java开发工具包&lt;/li&gt;
+&lt;li&gt;JRE(Java Runtime Environment)即Java运行环境&lt;br&gt;&lt;img src=&quot;/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png&quot; alt=&quot;avatar&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -43,9 +44,9 @@
     <link href="https://www.soulauv.cn/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>https://www.soulauv.cn/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
     <published>2019-12-01T12:16:05.000Z</published>
-    <updated>2019-12-03T07:59:05.635Z</updated>
+    <updated>2019-12-03T08:24:01.242Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li><li>Ctrl + Shift + P  打开控制命令行</li></ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul><li>![avatar](图片路径)    插入本地图片</li><li></li></ul><a id="more"></a><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul><li>touch 创建新文件</li></ul><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><ul><li>Ctrl + Win + →    切换桌面</li><li>Win + V           打开剪切板</li><li></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li><li>Ctrl + Shift + P  打开控制命令行</li></ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul><li>![avatar](图片路径)    插入图片</li><li>```  ```    两个三个反引号插入代码块</li><li>Tab   Tab     两个Tab之间插入代码块</li><li>``` 后键入所使用的语言实现代码高亮</li></ul><a id="more"></a><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul><li>touch 创建新文件</li></ul><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><ul><li>Ctrl + Win + →    切换桌面</li><li>Win + V           打开剪切板</li><li></li></ul>]]></content>
     
     <summary type="html">
     
@@ -55,8 +56,10 @@
 &lt;li&gt;Ctrl + k后Ctrl + t 更换主题&lt;/li&gt;
 &lt;li&gt;Ctrl + Shift + P  打开控制命令行&lt;/li&gt;
 &lt;/ul&gt;&lt;h2 id=&quot;Markdown-常用操作&quot;&gt;&lt;a href=&quot;#Markdown-常用操作&quot; class=&quot;headerlink&quot; title=&quot;Markdown 常用操作&quot;&gt;&lt;/a&gt;Markdown 常用操作&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;![avatar](图片路径)    插入本地图片&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;![avatar](图片路径)    插入图片&lt;/li&gt;
+&lt;li&gt;```  ```    两个三个反引号插入代码块&lt;/li&gt;
+&lt;li&gt;Tab   Tab     两个Tab之间插入代码块&lt;/li&gt;
+&lt;li&gt;``` 后键入所使用的语言实现代码高亮&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
