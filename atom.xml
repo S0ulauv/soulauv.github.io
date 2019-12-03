@@ -43,9 +43,9 @@
     <link href="https://www.soulauv.cn/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>https://www.soulauv.cn/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
     <published>2019-12-01T12:16:05.000Z</published>
-    <updated>2019-12-03T07:41:37.430Z</updated>
+    <updated>2019-12-03T07:42:30.699Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li></ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul><li><img src="/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84" alt="avatar">    插入本地图片</li><li></li></ul><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul><li>touch 创建新文件</li></ul><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><a id="more"></a><ul><li>Ctrl + Win + →    切换桌面</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li></ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul><li>!<a href="图片路径">avatar</a>    插入本地图片</li><li></li></ul><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul><li>touch 创建新文件</li></ul><a id="more"></a><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><ul><li>Ctrl + Win + →    切换桌面</li></ul>]]></content>
     
     <summary type="html">
     
@@ -54,11 +54,11 @@
 &lt;li&gt;Ctrl + /          批量注释或批量取消注释&lt;/li&gt;
 &lt;li&gt;Ctrl + k后Ctrl + t 更换主题&lt;/li&gt;
 &lt;/ul&gt;&lt;h2 id=&quot;Markdown-常用操作&quot;&gt;&lt;a href=&quot;#Markdown-常用操作&quot; class=&quot;headerlink&quot; title=&quot;Markdown 常用操作&quot;&gt;&lt;/a&gt;Markdown 常用操作&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;img src=&quot;/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84&quot; alt=&quot;avatar&quot;&gt;    插入本地图片&lt;/li&gt;
+&lt;li&gt;!&lt;a href=&quot;图片路径&quot;&gt;avatar&lt;/a&gt;    插入本地图片&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h2 id=&quot;Linux-常用快捷键&quot;&gt;&lt;a href=&quot;#Linux-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Linux 常用快捷键&quot;&gt;&lt;/a&gt;Linux 常用快捷键&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;touch 创建新文件&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 id=&quot;Windows下常用快捷键&quot;&gt;&lt;a href=&quot;#Windows下常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Windows下常用快捷键&quot;&gt;&lt;/a&gt;Windows下常用快捷键&lt;/h2&gt;
+&lt;/ul&gt;
     
     </summary>
     
