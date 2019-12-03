@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.soulauv.cn/"/>
-  <updated>2019-12-03T08:53:00.038Z</updated>
+  <updated>2019-12-03T15:54:11.318Z</updated>
   <id>https://www.soulauv.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2019-12-03T07:25:38.000Z</published>
-    <updated>2019-12-03T08:53:00.038Z</updated>
+    <updated>2019-12-03T15:54:11.318Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul><li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li><li>JDK(Java Development Kit)即Java开发工具包</li><li>JRE(Java Runtime Environment)即Java运行环境<br><img src="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png" alt="avatar"></li></ul><a id="more"></a><hr><h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>定义变量</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>   <span class="comment">//数据类型 变量名称</span></span><br></pre></td></tr></table></figure><hr><h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>final 关键字声明常量属性</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.14</span>; <span class="comment">//声明一个名为PI的常量并赋值为3.14</span></span><br></pre></td></tr></table></figure><h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><table><thead><tr><th>数据类型</th><th>默认值</th><th>存储格式</th><th>数据范围</th><th>包装类型</th></tr></thead><tbody><tr><td>short</td><td>0</td><td>2B</td><td>-32,768 ~ 32,767</td><td>Short</td></tr><tr><td>int</td><td>0</td><td>4B</td><td>-2,147,483,648 ~ 2,147,483,647</td><td>Integer</td></tr><tr><td>byte</td><td>0</td><td>1B</td><td>-128 ~ 127</td><td>Byte</td></tr><tr><td>char</td><td>空</td><td>2B</td><td>0 ~ 65535</td><td>Character</td></tr><tr><td>long</td><td>0L或0l</td><td>8B</td><td>-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807</td><td>Long</td></tr><tr><td>float</td><td>0.0F或0.0f</td><td>4B</td><td>32位IEEE-754单精度范围</td><td>Float</td></tr><tr><td>double</td><td>0.0或0.0D(d)</td><td>8B</td><td>64位IEEE-754双精度范围</td><td>Double</td></tr><tr><td>boolean</td><td>false</td><td>1B</td><td>true 或 false</td><td>Boolean</td></tr></tbody></table><h3 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h3><p>byte, short. int, long</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">long</span> num = <span class="number">1L</span>;</span><br></pre></td></tr></table></figure><h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><p>float, double</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">float</span> num = <span class="number">7.2F</span> <span class="comment">//double 类型可以不加d</span></span><br></pre></td></tr></table></figure><h3 id="char"><a href="#char" class="headerlink" title="char"></a>char</h3><p>char 表示单个字符</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> a = <span class="string">'a'</span>;</span><br></pre></td></tr></table></figure><h3 id="boolean"><a href="#boolean" class="headerlink" title="boolean"></a>boolean</h3><p>仅有true 或者 false</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul><li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li><li>JDK(Java Development Kit)即Java开发工具包</li><li>JRE(Java Runtime Environment)即Java运行环境<br><img src="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png" alt="avatar"></li></ul><a id="more"></a><hr><h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>定义变量</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>   <span class="comment">//数据类型 变量名称</span></span><br></pre></td></tr></table></figure><hr><h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>final 关键字声明常量属性</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.14</span>; <span class="comment">//声明一个名为PI的常量并赋值为3.14</span></span><br></pre></td></tr></table></figure><hr><h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><table><thead><tr><th>数据类型</th><th>默认值</th><th>存储格式</th><th>数据范围</th><th>包装类型</th></tr></thead><tbody><tr><td>short</td><td>0</td><td>2B</td><td>-32,768 ~ 32,767</td><td>Short</td></tr><tr><td>int</td><td>0</td><td>4B</td><td>-2,147,483,648 ~ 2,147,483,647</td><td>Integer</td></tr><tr><td>byte</td><td>0</td><td>1B</td><td>-128 ~ 127</td><td>Byte</td></tr><tr><td>char</td><td>空</td><td>2B</td><td>0 ~ 65535</td><td>Character</td></tr><tr><td>long</td><td>0L或0l</td><td>8B</td><td>-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807</td><td>Long</td></tr><tr><td>float</td><td>0.0F或0.0f</td><td>4B</td><td>32位IEEE-754单精度范围</td><td>Float</td></tr><tr><td>double</td><td>0.0或0.0D(d)</td><td>8B</td><td>64位IEEE-754双精度范围</td><td>Double</td></tr><tr><td>boolean</td><td>false</td><td>1B</td><td>true 或 false</td><td>Boolean</td></tr></tbody></table><hr><h3 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h3><p>byte, short. int, long</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">long</span> num = <span class="number">1L</span>;</span><br></pre></td></tr></table></figure><h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><p>float, double</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">float</span> num = <span class="number">7.2F</span> <span class="comment">//double 类型可以不加d</span></span><br></pre></td></tr></table></figure><h3 id="char"><a href="#char" class="headerlink" title="char"></a>char</h3><p>char 表示单个字符</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> a = <span class="string">'a'</span>;</span><br></pre></td></tr></table></figure><h3 id="boolean"><a href="#boolean" class="headerlink" title="boolean"></a>boolean</h3><p>仅有true 或者 false</p><hr><h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3><ul><li>初始化<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String s0 = <span class="string">"abc"</span>;</span><br><span class="line">String s1 = <span class="keyword">new</span> String(<span class="string">"abc"</span>);</span><br></pre></td></tr></table></figure></li><li>计算字符串的长度<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//length 方法</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">length</span><span class="params">()</span></span>&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//调用方法</span></span><br><span class="line">String s1 = <span class="string">"abc"</span>;</span><br><span class="line">String s2 = <span class="string">"Java"</span>;</span><br><span class="line"><span class="keyword">int</span> len1 = s1.length();</span><br><span class="line"><span class="keyword">int</span> len2 = s2.length();</span><br></pre></td></tr></table></figure></li><li>字符串比较<br>equals() 方法: 判断两个字符串对象的内容是否相同( 同则返回true; 不同则返回false )  </li></ul>]]></content>
     
     <summary type="html">
     
@@ -44,29 +44,55 @@
     <link href="https://www.soulauv.cn/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>https://www.soulauv.cn/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
     <published>2019-12-01T12:16:05.000Z</published>
-    <updated>2019-12-03T08:53:01.988Z</updated>
+    <updated>2019-12-03T15:55:22.353Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><ul><li>Ctrl + Shift + V  预览markdown文档</li><li>Ctrl + /          批量注释或批量取消注释</li><li>Ctrl + k后Ctrl + t 更换主题</li><li>Ctrl + Shift + P  打开控制命令行</li></ul><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><ul><li>![avatar](图片路径)    插入图片</li><li>```  ```    两个三个反引号插入代码块</li><li>Tab   Tab     两个Tab之间插入代码块</li><li>``` 后键入所使用的语言实现代码高亮</li><li><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//插入表格</span></span><br><span class="line">name | 价格 | 数量</span><br><span class="line">-|-|-</span><br><span class="line">香蕉 | $<span class="number">1</span> | <span class="number">5</span> |</span><br><span class="line">苹果 | $<span class="number">2</span> | <span class="number">7</span> |</span><br><span class="line">草莓 | $<span class="number">4</span> | <span class="number">3</span> |</span><br></pre></td></tr></table></figure></li></ul><a id="more"></a><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul><li>touch 创建新文件</li></ul><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><ul><li>Ctrl + Win + →    切换桌面</li><li>Win + V           打开剪切板</li><li></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><table><thead><tr><th>按键</th><th>作用</th></tr></thead><tbody><tr><td>Ctrl + Shift + V</td><td>预览Markdown 文档</td></tr><tr><td>Ctrl + /</td><td>批量注释批量取消注释</td></tr><tr><td>Ctrl + k 接Ctrl + t</td><td>更换主题</td></tr><tr><td>Ctrl + Shift + P</td><td>打开命令行</td></tr></tbody></table><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><table><thead><tr><th>操作</th><th>目的</th></tr></thead><tbody><tr><td>![avatar](图片路径)</td><td>插入图片</td></tr><tr><td>```  ```</td><td>连续三个反引号间插入代码块</td></tr><tr><td>```java ```</td><td>```后键入所使用语言实现代码高亮</td></tr></tbody></table><a id="more"></a><h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><table><thead><tr><th>命令</th><th>作用</th><th>全称</th></tr></thead><tbody><tr><td>touch</td><td>创建新文件</td><td></td></tr></tbody></table><h2 id="Windows下常用快捷键"><a href="#Windows下常用快捷键" class="headerlink" title="Windows下常用快捷键"></a>Windows下常用快捷键</h2><table><thead><tr><th>按键</th><th>作用</th><th>全称</th></tr></thead><tbody><tr><td>Ctrl + Win + →</td><td>切换桌面</td><td></td></tr><tr><td>Win + V</td><td>打开剪切板</td><td></td></tr><tr><td>Tab</td><td>制表键</td><td>Tabulator key</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;VS-code-常用快捷键&quot;&gt;&lt;a href=&quot;#VS-code-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;VS code 常用快捷键&quot;&gt;&lt;/a&gt;VS code 常用快捷键&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Ctrl + Shift + V  预览markdown文档&lt;/li&gt;
-&lt;li&gt;Ctrl + /          批量注释或批量取消注释&lt;/li&gt;
-&lt;li&gt;Ctrl + k后Ctrl + t 更换主题&lt;/li&gt;
-&lt;li&gt;Ctrl + Shift + P  打开控制命令行&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 id=&quot;Markdown-常用操作&quot;&gt;&lt;a href=&quot;#Markdown-常用操作&quot; class=&quot;headerlink&quot; title=&quot;Markdown 常用操作&quot;&gt;&lt;/a&gt;Markdown 常用操作&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;![avatar](图片路径)    插入图片&lt;/li&gt;
-&lt;li&gt;```  ```    两个三个反引号插入代码块&lt;/li&gt;
-&lt;li&gt;Tab   Tab     两个Tab之间插入代码块&lt;/li&gt;
-&lt;li&gt;``` 后键入所使用的语言实现代码高亮&lt;/li&gt;
-&lt;li&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//插入表格&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;name | 价格 | 数量&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-|-|-&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;香蕉 | $&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; | &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt; |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;苹果 | $&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt; | &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt; |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;草莓 | $&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt; | &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt; |&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-
-&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;h2 id=&quot;VS-code-常用快捷键&quot;&gt;&lt;a href=&quot;#VS-code-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;VS code 常用快捷键&quot;&gt;&lt;/a&gt;VS code 常用快捷键&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;按键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Ctrl + Shift + V&lt;/td&gt;
+&lt;td&gt;预览Markdown 文档&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl + /&lt;/td&gt;
+&lt;td&gt;批量注释批量取消注释&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl + k 接Ctrl + t&lt;/td&gt;
+&lt;td&gt;更换主题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl + Shift + P&lt;/td&gt;
+&lt;td&gt;打开命令行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;h2 id=&quot;Markdown-常用操作&quot;&gt;&lt;a href=&quot;#Markdown-常用操作&quot; class=&quot;headerlink&quot; title=&quot;Markdown 常用操作&quot;&gt;&lt;/a&gt;Markdown 常用操作&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;操作&lt;/th&gt;
+&lt;th&gt;目的&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;![avatar](图片路径)&lt;/td&gt;
+&lt;td&gt;插入图片&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;```  ```&lt;/td&gt;
+&lt;td&gt;连续三个反引号间插入代码块&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;```java ```&lt;/td&gt;
+&lt;td&gt;```后键入所使用语言实现代码高亮&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
     
     </summary>
     
