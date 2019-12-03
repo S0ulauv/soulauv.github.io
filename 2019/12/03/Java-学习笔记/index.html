@@ -55,7 +55,7 @@
 <meta property="og:description" content="Java 概述JDK JRE JVM 的关系 JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关 JDK(Java Development Kit)即Java开发工具包 JRE(Java Runtime Environment)即Java运行环境">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2019&#x2F;12&#x2F;03&#x2F;Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0&#x2F;wm.png">
-<meta property="og:updated_time" content="2019-12-03T19:29:49.037Z">
+<meta property="og:updated_time" content="2019-12-03T19:34:12.726Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2019&#x2F;12&#x2F;03&#x2F;Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0&#x2F;wm.png">
 
@@ -241,7 +241,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-04 03:29:49" itemprop="dateModified" datetime="2019-12-04T03:29:49+08:00">2019-12-04</time>
+                <time title="修改时间：2019-12-04 03:34:12" itemprop="dateModified" datetime="2019-12-04T03:34:12+08:00">2019-12-04</time>
               </span>
 
           
@@ -257,7 +257,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.9k</span>
+              <span>2.8k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -493,15 +493,100 @@
 </tr>
 </tbody></table>
 <hr>
-<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p>表格中a = 60, b = 13<br>位运算符 | 名称 | 描述 | 举例</p>
-<ul>
-<li>| - | - | -<br>&amp; | 按位与 | 同 1 则 1, 否则为 0 | (a &amp; b), 得到 12, 即 0000 1100<br>| | 按位或 | 同 0 则 0, 否则为 1 | (a |b ), 得到 61, 即 0011 1101<br>^ | 按位异或 | 同 0 异 1 | (a ^ b), 得到 49, 即 0011 0001<br>~ | 按位补 | 翻转操作数的每一位 | (~a), 得到 -61, 即 1100 0011<br>&lt;&lt; | 按位左移 | 左操作数按位左移右操作数指定的位数 | a &gt;&gt; 2 得到240, 即 1111 0000<br>&gt;&gt; | 按位右移 | 左操作数按位右移右操作数指定的位数 | a &lt;&lt; 2 得到 15, 即 1111<br>&gt;&gt;&gt; | 按位右移补零 | 左操作数的值按右操作数指定的位数右移, 空位补零 | a &gt;&gt;&gt; 2 得到 15, 即 0000 1111</li>
-</ul>
+<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p>表格中a = 60, b = 13    </p>
+<table>
+<thead>
+<tr>
+<th>位运算符</th>
+<th>名称</th>
+<th>描述</th>
+<th>举例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;</td>
+<td>按位与</td>
+<td>同 1 则 1, 否则为 0</td>
+<td>(a &amp; b), 得到 12, 即 0000 1100</td>
+</tr>
+<tr>
+<td>|</td>
+<td>按位或</td>
+<td>同 0 则 0, 否则为 1</td>
+<td>(a</td>
+</tr>
+<tr>
+<td>^</td>
+<td>按位异或</td>
+<td>同 0 异 1</td>
+<td>(a ^ b), 得到 49, 即 0011 0001</td>
+</tr>
+<tr>
+<td>~</td>
+<td>按位补</td>
+<td>翻转操作数的每一位</td>
+<td>(~a), 得到 -61, 即 1100 0011</td>
+</tr>
+<tr>
+<td>&lt;&lt;</td>
+<td>按位左移</td>
+<td>左操作数按位左移右操作数指定的位数</td>
+<td>a &gt;&gt; 2 得到240, 即 1111 0000</td>
+</tr>
+<tr>
+<td>&gt;&gt;</td>
+<td>按位右移</td>
+<td>左操作数按位右移右操作数指定的位数</td>
+<td>a &lt;&lt; 2 得到 15, 即 1111</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;</td>
+<td>按位右移补零</td>
+<td>左操作数的值按右操作数指定的位数右移, 空位补零</td>
+<td>a &gt;&gt;&gt; 2 得到 15, 即 0000 1111</td>
+</tr>
+</tbody></table>
 <hr>
-<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p>表格中 a = true, b = false<br>逻辑运算符 | 名称 | 描述 | 类型 | 举例</p>
-<ul>
-<li>| - | - | - | -<br>&amp;&amp; | 与 | 同真则真, 否则为假 | 双目运算符 | (a &amp;&amp; b) 为假<br>|| | 或 | 有真就真, 有假必假 | 双目运算符 | (a || b) 为真<br>! | 非 | 非真为假, 非假为真 | 单目运算符 | (!a) 为假<br>^ | 异或 | 同则假, 否则为真 | 双目运算符 | (a ^ b) 为真</li>
-</ul>
+<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p>表格中 a = true, b = false</p>
+<table>
+<thead>
+<tr>
+<th>逻辑运算符</th>
+<th>名称</th>
+<th>描述</th>
+<th>类型</th>
+<th>举例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;&amp;</td>
+<td>与</td>
+<td>同真则真, 否则为假</td>
+<td>双目运算符</td>
+<td>(a &amp;&amp; b) 为假</td>
+</tr>
+<tr>
+<td>||</td>
+<td>或</td>
+<td>有真就真, 有假必假</td>
+<td>双目运算符</td>
+<td>(a</td>
+</tr>
+<tr>
+<td>!</td>
+<td>非</td>
+<td>非真为假, 非假为真</td>
+<td>单目运算符</td>
+<td>(!a) 为假</td>
+</tr>
+<tr>
+<td>^</td>
+<td>异或</td>
+<td>同则假, 否则为真</td>
+<td>双目运算符</td>
+<td>(a ^ b) 为真</td>
+</tr>
+</tbody></table>
 <hr>
 <h3 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h3><table>
 <thead>
