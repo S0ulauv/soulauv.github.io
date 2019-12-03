@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Java 学习笔记</title>
+    <url>/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Windows下常用快捷键</title>
+    <url>/2019/12/03/Windows%E4%B8%8B%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<ul>
+<li>Ctrl + Win + →    切换桌面</li>
+</ul>]]></content>
+  </entry>
+  <entry>
+    <title>Linux 常用快捷键</title>
+    <url>/2019/12/01/Linux-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<h1 id="Linux-常用快捷键（随学习进度更新）"><a href="#Linux-常用快捷键（随学习进度更新）" class="headerlink" title="Linux 常用快捷键（随学习进度更新）"></a>Linux 常用快捷键（随学习进度更新）</h1><ul>
+<li>touch 创建新文件</li>
+</ul>]]></content>
+  </entry>
+  <entry>
+    <title>VS code 常用快捷键</title>
+    <url>/2019/12/01/VS-code-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<h1 id="VS-code-常用快捷键（随学习进度更新）"><a href="#VS-code-常用快捷键（随学习进度更新）" class="headerlink" title="VS code 常用快捷键（随学习进度更新）"></a>VS code 常用快捷键（随学习进度更新）</h1><ul>
+<li>Ctrl + Shift + V  预览markdown文档</li>
+<li>Ctrl + /          批量注释或批量取消注释</li>
+<li>Ctrl + k后Ctrl + t 更换主题</li>
+</ul>]]></content>
+      <tags>
+        <tag>VS code</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>oh-man</title>
     <url>/2019/11/23/oh-man/</url>
     <content><![CDATA[]]></content>
