@@ -10,7 +10,86 @@
 </ul><a id="more"></a>
 <hr>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+<hr>
+<h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>定义变量</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>   <span class="comment">//数据类型 变量名称</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>final 关键字声明常量属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.14</span>; <span class="comment">//声明一个名为PI的常量并赋值为3.14</span></span><br></pre></td></tr></table></figure>
+<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>默认值</th>
+<th>存储格式</th>
+<th>数据范围</th>
+<th>包装类型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>short</td>
+<td>0</td>
+<td>2B</td>
+<td>-32,768 ~ 32,767</td>
+<td>Short</td>
+</tr>
+<tr>
+<td>int</td>
+<td>0</td>
+<td>4B</td>
+<td>-2,147,483,648 ~ 2,147,483,647</td>
+<td>Integer</td>
+</tr>
+<tr>
+<td>byte</td>
+<td>0</td>
+<td>1B</td>
+<td>-128 ~ 127</td>
+<td>Byte</td>
+</tr>
+<tr>
+<td>char</td>
+<td>空</td>
+<td>2B</td>
+<td>0 ~ 65535</td>
+<td>Character</td>
+</tr>
+<tr>
+<td>long</td>
+<td>0L或0l</td>
+<td>8B</td>
+<td>-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807</td>
+<td>Long</td>
+</tr>
+<tr>
+<td>float</td>
+<td>0.0F或0.0f</td>
+<td>4B</td>
+<td>32位IEEE-754单精度范围</td>
+<td>Float</td>
+</tr>
+<tr>
+<td>double</td>
+<td>0.0或0.0D(d)</td>
+<td>8B</td>
+<td>64位IEEE-754双精度范围</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>false</td>
+<td>1B</td>
+<td>true 或 false</td>
+<td>Boolean</td>
+</tr>
+</tbody></table>
+<h3 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h3><p>byte, short. int, long</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">long</span> num = <span class="number">1L</span>;</span><br></pre></td></tr></table></figure>
+<h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><p>float, double</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">float</span> num = <span class="number">7.2F</span> <span class="comment">//double 类型可以不加d</span></span><br></pre></td></tr></table></figure>
+<h3 id="char"><a href="#char" class="headerlink" title="char"></a>char</h3><p>char 表示单个字符</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">char</span> a = <span class="string">'a'</span>;</span><br></pre></td></tr></table></figure>
+<h3 id="boolean"><a href="#boolean" class="headerlink" title="boolean"></a>boolean</h3><p>仅有true 或者 false</p>
 ]]></content>
   </entry>
   <entry>
@@ -26,6 +105,12 @@
 <li>```  ```    两个三个反引号插入代码块</li>
 <li>Tab   Tab     两个Tab之间插入代码块</li>
 <li>``` 后键入所使用的语言实现代码高亮</li>
+<li><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//插入表格</span></span><br><span class="line">name | 价格 | 数量</span><br><span class="line">-|-|-</span><br><span class="line">香蕉 | $<span class="number">1</span> | <span class="number">5</span> |</span><br><span class="line">苹果 | $<span class="number">2</span> | <span class="number">7</span> |</span><br><span class="line">草莓 | $<span class="number">4</span> | <span class="number">3</span> |</span><br></pre></td></tr></table></figure>
+
+
+
+
+</li>
 </ul><a id="more"></a>
 
 <h2 id="Linux-常用快捷键"><a href="#Linux-常用快捷键" class="headerlink" title="Linux 常用快捷键"></a>Linux 常用快捷键</h2><ul>
