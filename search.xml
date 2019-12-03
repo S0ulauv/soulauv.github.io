@@ -178,13 +178,110 @@
 </tr>
 <tr>
 <td>/</td>
+<td>除法</td>
+<td>左操作数除以右操作数</td>
+<td>双目运算符</td>
+<td>a / b = 1</td>
+</tr>
+<tr>
+<td>%</td>
+<td>取余</td>
+<td>左操作数除以右操作数的余数</td>
+<td>双目运算符</td>
+<td>a % b = 2</td>
+</tr>
+<tr>
+<td>++</td>
+<td>自增</td>
+<td>操作数的值增加1</td>
+<td>单目运算符</td>
+<td>++i = 2</td>
+</tr>
+<tr>
+<td>–</td>
+<td>自减</td>
+<td>操作数的值减少1</td>
+<td>单目运算符</td>
+<td>–i = 0</td>
+</tr>
+<tr>
+<td>- ++i, –i: 先自增或自减,再进行表达式运算</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- i++, –i: 先进行表达式运算,再自增或自减</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 </tbody></table>
-]]></content>
+<hr>
+<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p>表格中a = 60, b = 13<br>位运算符 | 名称 | 描述 | 举例</p>
+<ul>
+<li>| - | - | -<br>&amp; | 按位与 | 同 1 则 1, 否则为 0 | (a &amp; b), 得到 12, 即 0000 1100<br>| | 按位或 | 同 0 则 0, 否则为 1 | (a |b ), 得到 61, 即 0011 1101<br>^ | 按位异或 | 同 0 异 1 | (a ^ b), 得到 49, 即 0011 0001<br>~ | 按位补 | 翻转操作数的每一位 | (~a), 得到 -61, 即 1100 0011<br>&lt;&lt; | 按位左移 | 左操作数按位左移右操作数指定的位数 | a &gt;&gt; 2 得到240, 即 1111 0000<br>&gt;&gt; | 按位右移 | 左操作数按位右移右操作数指定的位数 | a &lt;&lt; 2 得到 15, 即 1111<br>&gt;&gt;&gt; | 按位右移补零 | 左操作数的值按右操作数指定的位数右移, 空位补零 | a &gt;&gt;&gt; 2 得到 15, 即 0000 1111</li>
+</ul>
+<hr>
+<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p>表格中 a = true, b = false<br>逻辑运算符 | 名称 | 描述 | 类型 | 举例</p>
+<ul>
+<li>| - | - | - | -<br>&amp;&amp; | 与 | 同真则真, 否则为假 | 双目运算符 | (a &amp;&amp; b) 为假<br>|| | 或 | 有真就真, 有假必假 | 双目运算符 | (a || b) 为真<br>! | 非 | 非真为假, 非假为真 | 单目运算符 | (!a) 为假<br>^ | 异或 | 同则假, 否则为真 | 双目运算符 | (a ^ b) 为真</li>
+</ul>
+<hr>
+<h3 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h3><table>
+<thead>
+<tr>
+<th>比较运算符</th>
+<th>名称</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>==</td>
+<td>等于</td>
+</tr>
+<tr>
+<td>! =</td>
+<td>不等于</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>大于</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>小于</td>
+</tr>
+<tr>
+<td>/&gt;=</td>
+<td>大于等于</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>小于等于</td>
+</tr>
+<tr>
+<td>- 双目运算符: 布尔表达式? 表达式 1 : 表达式 2</td>
+<td></td>
+</tr>
+<tr>
+<td>如果布尔表达式的值为true 则执行表达式1, 否则执行表达式2</td>
+<td></td>
+</tr>
+<tr>
+<td>- ==和!=适用于所有的基本数据类型，其他关系运算符不适用于boolean，因为 boolean 值只有true和false，比较没有任何意义。</td>
+<td></td>
+</tr>
+<tr>
+<td>- ==和!=也适用于所有对象，可以比较对象的引用是否相同。</td>
+<td></td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="方法-函数"><a href="#方法-函数" class="headerlink" title="方法(函数)"></a>方法(函数)</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">访问修饰符 返回值类型 方法名(参数列表)&#123;</span><br><span class="line">    方法体</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">functionName</span><span class="params">(Object arg)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
     <title>各类快捷键</title>
