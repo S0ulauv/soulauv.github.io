@@ -3,10 +3,10 @@
   <entry>
     <title>Java 学习笔记</title>
     <url>/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h2 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h2><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul>
+    <content><![CDATA[<h1 id="Java-概述"><a href="#Java-概述" class="headerlink" title="Java 概述"></a>Java 概述</h1><h3 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h3><ul>
 <li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li>
 <li>JDK(Java Development Kit)即Java开发工具包</li>
-<li>JRE(Java Runtime Environment)即Java运行环境<br><img src="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/wm.png" alt="avatar"></li>
+<li>JRE(Java Runtime Environment)即Java运行环境   </li>
 </ul><a id="more"></a>
 <hr>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -386,7 +386,11 @@
 <h3 id="do-while-语法"><a href="#do-while-语法" class="headerlink" title="do-while 语法"></a>do-while 语法</h3><p>先执行, 再判断</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line">    代码块</span><br><span class="line">&#125;<span class="keyword">while</span>(条件);</span><br></pre></td></tr></table></figure>
 <h3 id="for-语句"><a href="#for-语句" class="headerlink" title="for 语句"></a>for 语句</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(循环变量初始化; 循环条件; 循环变量变化)&#123;</span><br><span class="line">    循环操作</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+
+<hr>
+<h3 id="跳转语句"><a href="#跳转语句" class="headerlink" title="跳转语句"></a>跳转语句</h3><p>break: 用于条件和循环语句中, 用来跳出循环语句<br>continue: 跳过循环体中剩余的语句执行下一次循环</p>
+<hr>
+<h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3>]]></content>
   </entry>
   <entry>
     <title>各类快捷键</title>
