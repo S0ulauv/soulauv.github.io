@@ -55,7 +55,7 @@
 <meta property="og:description" content="Java 概述JDK JRE JVM 的关系 JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关 JDK(Java Development Kit)即Java开发工具包 JRE(Java Runtime Environment)即Java运行环境">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2019&#x2F;12&#x2F;03&#x2F;Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0&#x2F;wm.png">
-<meta property="og:updated_time" content="2019-12-03T19:34:12.726Z">
+<meta property="og:updated_time" content="2019-12-04T04:29:02.646Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2019&#x2F;12&#x2F;03&#x2F;Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0&#x2F;wm.png">
 
@@ -241,7 +241,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-04 03:34:12" itemprop="dateModified" datetime="2019-12-04T03:34:12+08:00">2019-12-04</time>
+                <time title="修改时间：2019-12-04 12:29:02" itemprop="dateModified" datetime="2019-12-04T12:29:02+08:00">2019-12-04</time>
               </span>
 
           
@@ -257,7 +257,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.8k</span>
+              <span>3.3k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -639,7 +639,27 @@
 <hr>
 <h3 id="方法-函数"><a href="#方法-函数" class="headerlink" title="方法(函数)"></a>方法(函数)</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">访问修饰符 返回值类型 方法名(参数列表)&#123;</span><br><span class="line">    方法体</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>如</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">functionName</span><span class="params">(Object arg)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">functionName</span><span class="params">(Object arg)</span></span>&#123;</span><br><span class="line">    方法体</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a>if 语句</h3><p>if 语句</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(条件)&#123;</span><br><span class="line">    条件成立时执行的代码</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>if else 语句</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(条件)&#123;</span><br><span class="line">    代码块<span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">    代码块<span class="number">2</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>多重 if 语句</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(条件<span class="number">1</span>)&#123;</span><br><span class="line">    代码块<span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>(条件<span class="number">2</span>)&#123;</span><br><span class="line">    代码块<span class="number">2</span></span><br><span class="line">&#125;</span><br><span class="line">...</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">    代码块n</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="switch-语句"><a href="#switch-语句" class="headerlink" title="switch 语句"></a>switch 语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span>(表达式)&#123;</span><br><span class="line">    <span class="keyword">case</span> 值<span class="number">1</span>:</span><br><span class="line">        代码块<span class="number">1</span></span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> 值<span class="number">2</span>:</span><br><span class="line">        代码块<span class="number">2</span></span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    ...</span><br><span class="line">    dafult:</span><br><span class="line">        默认执行的代码块</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="while-语法"><a href="#while-语法" class="headerlink" title="while 语法"></a>while 语法</h3><p>先判断, 在执行</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(条件)&#123;</span><br><span class="line">    代码块</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="do-while-语法"><a href="#do-while-语法" class="headerlink" title="do-while 语法"></a>do-while 语法</h3><p>先执行, 再判断</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line">    代码块</span><br><span class="line">&#125;<span class="keyword">while</span>(条件);</span><br></pre></td></tr></table></figure>
+<h3 id="for-语句"><a href="#for-语句" class="headerlink" title="for 语句"></a>for 语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(循环变量初始化; 循环条件; 循环变量变化)&#123;</span><br><span class="line">    循环操作</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
     </div>
 
     
@@ -708,7 +728,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Java-概述"><span class="nav-number">1.</span> <span class="nav-text">Java 概述</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#JDK-JRE-JVM-的关系"><span class="nav-number">1.1.</span> <span class="nav-text">JDK JRE JVM 的关系</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hello-World"><span class="nav-number">1.2.</span> <span class="nav-text">Hello World</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量"><span class="nav-number">1.3.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常量"><span class="nav-number">1.4.</span> <span class="nav-text">常量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据类型"><span class="nav-number">1.5.</span> <span class="nav-text">数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#整数"><span class="nav-number">1.6.</span> <span class="nav-text">整数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浮点数"><span class="nav-number">1.7.</span> <span class="nav-text">浮点数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#char"><span class="nav-number">1.8.</span> <span class="nav-text">char</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#boolean"><span class="nav-number">1.9.</span> <span class="nav-text">boolean</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串"><span class="nav-number">1.10.</span> <span class="nav-text">字符串</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#算术运算符"><span class="nav-number">1.11.</span> <span class="nav-text">算术运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#位运算符"><span class="nav-number">1.12.</span> <span class="nav-text">位运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#逻辑运算符"><span class="nav-number">1.13.</span> <span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#比较运算符"><span class="nav-number">1.14.</span> <span class="nav-text">比较运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方法-函数"><span class="nav-number">1.15.</span> <span class="nav-text">方法(函数)</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Java-概述"><span class="nav-number">1.</span> <span class="nav-text">Java 概述</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#JDK-JRE-JVM-的关系"><span class="nav-number">1.1.</span> <span class="nav-text">JDK JRE JVM 的关系</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hello-World"><span class="nav-number">1.2.</span> <span class="nav-text">Hello World</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变量"><span class="nav-number">1.3.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常量"><span class="nav-number">1.4.</span> <span class="nav-text">常量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数据类型"><span class="nav-number">1.5.</span> <span class="nav-text">数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#整数"><span class="nav-number">1.6.</span> <span class="nav-text">整数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浮点数"><span class="nav-number">1.7.</span> <span class="nav-text">浮点数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#char"><span class="nav-number">1.8.</span> <span class="nav-text">char</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#boolean"><span class="nav-number">1.9.</span> <span class="nav-text">boolean</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串"><span class="nav-number">1.10.</span> <span class="nav-text">字符串</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#算术运算符"><span class="nav-number">1.11.</span> <span class="nav-text">算术运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#位运算符"><span class="nav-number">1.12.</span> <span class="nav-text">位运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#逻辑运算符"><span class="nav-number">1.13.</span> <span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#比较运算符"><span class="nav-number">1.14.</span> <span class="nav-text">比较运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方法-函数"><span class="nav-number">1.15.</span> <span class="nav-text">方法(函数)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#if-语句"><span class="nav-number">1.16.</span> <span class="nav-text">if 语句</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#switch-语句"><span class="nav-number">1.17.</span> <span class="nav-text">switch 语句</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#while-语法"><span class="nav-number">1.18.</span> <span class="nav-text">while 语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#do-while-语法"><span class="nav-number">1.19.</span> <span class="nav-text">do-while 语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#for-语句"><span class="nav-number">1.20.</span> <span class="nav-text">for 语句</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -776,7 +796,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">3k</span>
+    <span title="站点总字数">4k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
