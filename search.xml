@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>my friend zhou</title>
-    <url>/2020/01/16/my-friend-zhou/</url>
-    <content><![CDATA[<p>my dear friend zhou<br><img src="soulauv.pic/RBA~DN$11%5BH%7B~4%9K@FL%7DHX.jpg" alt></p>]]></content>
-  </entry>
-  <entry>
     <title>Windows环境下搭建hexo框架博客</title>
     <url>/2020/01/16/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="Windows10下搭建hexo博客"><a href="#Windows10下搭建hexo博客" class="headerlink" title="Windows10下搭建hexo博客"></a>Windows10下搭建hexo博客</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ol>
