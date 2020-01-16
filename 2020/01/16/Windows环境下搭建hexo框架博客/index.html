@@ -47,30 +47,41 @@
   };
 </script>
 
-  <meta name="description" content="BE YOUR HERO">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Soulauv&#39;s Blog">
-<meta property="og:url" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;index.html">
+  <meta name="description" content="Windows10下搭建hexo博客安装Git 进入Git官网,或直接点击此处开始下载 全部默认安装 安装完成后会在开始菜单出现 安装nodejs 进入nodejs中文网，或点击此处下载64位安装包 全部默认安装 打开上一步图片中的Git Bash，输入  12node -vnpm -v 查看nodejs是否安装成功若结果出现  ![](TIM图片20191113105727.png)  则安装成">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windows环境下搭建hexo框架博客">
+<meta property="og:url" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;index.html">
 <meta property="og:site_name" content="Soulauv&#39;s Blog">
-<meta property="og:description" content="BE YOUR HERO">
+<meta property="og:description" content="Windows10下搭建hexo博客安装Git 进入Git官网,或直接点击此处开始下载 全部默认安装 安装完成后会在开始菜单出现 安装nodejs 进入nodejs中文网，或点击此处下载64位安装包 全部默认安装 打开上一步图片中的Git Bash，输入  12node -vnpm -v 查看nodejs是否安装成功若结果出现  ![](TIM图片20191113105727.png)  则安装成">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113104603.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113110535.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113110916.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113111428.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113111827.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113112223.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113112758.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113113044.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113113829.png">
+<meta property="og:updated_time" content="2020-01-16T06:14:08.954Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;www.soulauv.cn&#x2F;2020&#x2F;01&#x2F;16&#x2F;Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2&#x2F;TIM%E5%9B%BE%E7%89%8720191113104603.png">
 
-<link rel="canonical" href="https://www.soulauv.cn/">
+<link rel="canonical" href="https://www.soulauv.cn/2020/01/16/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Soulauv's Blog</title>
+  <title>Windows环境下搭建hexo框架博客 | Soulauv's Blog</title>
   
 
 
@@ -204,10 +215,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://www.soulauv.cn/2020/01/16/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -221,8 +232,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/16/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">Windows环境下搭建hexo框架博客</a>
+          Windows环境下搭建hexo框架博客
         </h1>
 
         <div class="post-meta">
@@ -235,7 +245,14 @@
               <time title="创建时间：2020-01-16 14:14:08" itemprop="dateCreated datePublished" datetime="2020-01-16T14:14:08+08:00">2020-01-16</time>
             </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
@@ -260,7 +277,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Windows10下搭建hexo博客"><a href="#Windows10下搭建hexo博客" class="headerlink" title="Windows10下搭建hexo博客"></a>Windows10下搭建hexo博客</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ol>
+        <h1 id="Windows10下搭建hexo博客"><a href="#Windows10下搭建hexo博客" class="headerlink" title="Windows10下搭建hexo博客"></a>Windows10下搭建hexo博客</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ol>
 <li>进入<a href="https://git-scm.com/" target="_blank" rel="noopener">Git官网</a>,或直接<a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/23216272/71c5a100-00d6-11ea-822c-0617e3aba1d7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191113T023831Z&X-Amz-Expires=300&X-Amz-Signature=0b309a0c0ffa097c60e68638cf898450ed5aadb34a9dfa912eff45d610bac9c5&X-Amz-SignedHeaders=host&actor_id=57254384&response-content-disposition=attachment%3B%20filename%3DGit-2.24.0.2-64-bit.exe&response-content-type=application%2Foctet-stream" target="_blank" rel="noopener">点击此处</a>开始下载</li>
 <li>全部默认安装</li>
 <li>安装完成后会在开始菜单出现<br><img src="TIM%E5%9B%BE%E7%89%8720191113104603.png" alt></li>
@@ -269,251 +286,86 @@
 <li>全部默认安装</li>
 <li>打开上一步图片中的Git Bash，输入  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
 <li>查看nodejs是否安装成功<br>若结果出现  ![](<pre><code>TIM图片20191113105727.png)  </code></pre>则安装成功</li>
+</ol><a id="more"></a>
+
+<h2 id="全局安装cnpm"><a href="#全局安装cnpm" class="headerlink" title="全局安装cnpm"></a>全局安装cnpm</h2><ol>
+<li>在Git Bash下输入   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+ 等待安装完成  </li>
+<li>输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
+若出现版本号则安装成功  <img src="TIM%E5%9B%BE%E7%89%8720191113110535.png" alt></li>
 </ol>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/01/16/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E6%A1%86%E6%9E%B6%E5%8D%9A%E5%AE%A2/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+<h2 id="安装hexo框架"><a href="#安装hexo框架" class="headerlink" title="安装hexo框架"></a>安装hexo框架</h2><ol>
+<li><p>输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>进行安装</p>
+</li>
+<li><p>输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<p>若出现版本号则安装成功<br><img src="TIM%E5%9B%BE%E7%89%8720191113110916.png" alt></p>
+<h2 id="初始化hexo博客"><a href="#初始化hexo博客" class="headerlink" title="初始化hexo博客"></a>初始化hexo博客</h2></li>
+<li><p>在某一位置(如在D盘根目录下)新建一文件夹(如命名为 hexo)<img src="TIM%E5%9B%BE%E7%89%8720191113111428.png" alt></p>
+</li>
+<li><p>右键打开Git Bash<br>输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p> 此时文件夹中出现以下内容  <img src="TIM%E5%9B%BE%E7%89%8720191113111827.png" alt></p>
+</li>
+<li><p>启动博客<br>输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p> 出现<br> <img src="TIM%E5%9B%BE%E7%89%8720191113112223.png" alt><br> 将’’<a href="http://localhost:4000&quot;输入浏览器网址框中即可在本地访问" target="_blank" rel="noopener">http://localhost:4000&quot;输入浏览器网址框中即可在本地访问</a></p>
+</li>
+<li><p>输入”Crtl + C”断开</p>
+</li>
+</ol>
+<h2 id="将hexo博客部署到Github上"><a href="#将hexo博客部署到Github上" class="headerlink" title="将hexo博客部署到Github上"></a>将hexo博客部署到Github上</h2><ol>
+<li>创建自己的Github账号后在页面右上角点击New repository新建一个仓库  <img src="TIM%E5%9B%BE%E7%89%8720191113112758.png" alt></li>
+<li>按照下图格式进行命名  <img src="TIM%E5%9B%BE%E7%89%8720191113113044.png" alt>最好和用户名相同</li>
+<li>在hexo目录下安装deployer插件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
+<li>设置_config.yml 文件<br>输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim _config.yml</span><br></pre></td></tr></table></figure>
+在文件最底部内容按图进行配置  ![](<pre><code>TIM图片20191113113710.png)</code></pre> 启动第二项 repo 为你的GitHub仓库地址位置如下图所示，复制粘贴即可<img src="TIM%E5%9B%BE%E7%89%8720191113113829.png" alt></li>
+<li>输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2></li>
+</ol>
+
     </div>
 
     
     
     
+
+
+      <div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------END-------------</div>
+    
+</div>
+
+
+  
+</div>
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
         
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.soulauv.cn/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/head3.png">
-      <meta itemprop="name" content="Soulauv">
-      <meta itemprop="description" content="BE YOUR HERO">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Soulauv's Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">Java 学习笔记(一)</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-12-03 15:25:38" itemprop="dateCreated datePublished" datetime="2019-12-03T15:25:38+08:00">2019-12-03</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-04 20:30:44" itemprop="dateModified" datetime="2019-12-04T20:30:44+08:00">2019-12-04</time>
-              </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>4.1k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>4 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="JDK-JRE-JVM-的关系"><a href="#JDK-JRE-JVM-的关系" class="headerlink" title="JDK JRE JVM 的关系"></a>JDK JRE JVM 的关系</h2><ul>
-<li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li>
-<li>JDK(Java Development Kit)即Java开发工具包</li>
-<li>JRE(Java Runtime Environment)即Java运行环境   </li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/12/03/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="Java 学习笔记(一)">
+      <i class="fa fa-chevron-left"></i> Java 学习笔记(一)
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.soulauv.cn/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/head3.png">
-      <meta itemprop="name" content="Soulauv">
-      <meta itemprop="description" content="BE YOUR HERO">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Soulauv's Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="post-title-link" itemprop="url">各类快捷键</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-12-01 20:16:05" itemprop="dateCreated datePublished" datetime="2019-12-01T20:16:05+08:00">2019-12-01</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-04 00:17:15" itemprop="dateModified" datetime="2019-12-04T00:17:15+08:00">2019-12-04</time>
-              </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>282</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="VS-code-常用快捷键"><a href="#VS-code-常用快捷键" class="headerlink" title="VS code 常用快捷键"></a>VS code 常用快捷键</h2><table>
-<thead>
-<tr>
-<th>按键</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Ctrl + Shift + V</td>
-<td>预览Markdown 文档</td>
-</tr>
-<tr>
-<td>Ctrl + /</td>
-<td>批量注释批量取消注释</td>
-</tr>
-<tr>
-<td>Ctrl + k 接Ctrl + t</td>
-<td>更换主题</td>
-</tr>
-<tr>
-<td>Ctrl + Shift + P</td>
-<td>打开命令行</td>
-</tr>
-</tbody></table><h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><table>
-<thead>
-<tr>
-<th>操作</th>
-<th>目的</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>![avatar](图片路径)</td>
-<td>插入图片</td>
-</tr>
-<tr>
-<td>```  ```</td>
-<td>连续三个反引号间插入代码块</td>
-</tr>
-<tr>
-<td>```java ```</td>
-<td>```后键入所使用语言实现代码高亮</td>
-</tr>
-</tbody></table>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/12/01/%E5%90%84%E7%B1%BB%E5%BF%AB%E6%8D%B7%E9%94%AE/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -542,6 +394,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Windows10下搭建hexo博客"><span class="nav-number">1.</span> <span class="nav-text">Windows10下搭建hexo博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git"><span class="nav-number">1.1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装nodejs"><span class="nav-number">1.2.</span> <span class="nav-text">安装nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#全局安装cnpm"><span class="nav-number">1.3.</span> <span class="nav-text">全局安装cnpm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo框架"><span class="nav-number">1.4.</span> <span class="nav-text">安装hexo框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化hexo博客"><span class="nav-number">1.5.</span> <span class="nav-text">初始化hexo博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将hexo博客部署到Github上"><span class="nav-number">1.6.</span> <span class="nav-text">将hexo博客部署到Github上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#大功告成"><span class="nav-number">1.7.</span> <span class="nav-text">大功告成</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
