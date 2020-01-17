@@ -3,14 +3,14 @@
   <entry>
     <title>排序算法</title>
     <url>/2020/01/17/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<p>大学的最后一个寒假了，希望自己能够持续学习，每天定一些小目标然后完成。</p>
-<h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><h3 id="第一阶段-口语化简述"><a href="#第一阶段-口语化简述" class="headerlink" title="第一阶段-口语化简述"></a>第一阶段-口语化简述</h3><p>给定一组指定的数，大小顺序不确定。首先比较num(0)和num(1)，若num(0) &lt; num(1)则两者相对位置不变，否则两者交换位置；接着比较num(1)与num(2)……<br>每一轮循环结束，总有一个数在理想的位置，即在每次比较的最后面。<br>冒泡排序可以形象化为有一个泡泡在一直咕噜咕噜着往后走。<br>冒泡排序的时间复杂度是O(n^2)，在数组有序时为O(n)  </p>
+    <content><![CDATA[<p>大学的最后一个寒假了，希望自己能够持续学习，每天定一些小目标然后完成。</p><h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><h3 id="第一阶段-口语化简述"><a href="#第一阶段-口语化简述" class="headerlink" title="第一阶段-口语化简述"></a>第一阶段-口语化简述</h3><p>给定一组指定的数，大小顺序不确定。首先比较num(0)和num(1)，若num(0) &lt; num(1)则两者相对位置不变，否则两者交换位置；接着比较num(1)与num(2)……<br>每一轮循环结束，总有一个数在理想的位置，即在每次比较的最后面。<br>冒泡排序可以形象化为有一个泡泡在一直咕噜咕噜着往后走。<br>冒泡排序的时间复杂度是O(n^2)，在数组有序时为O(n)  </p><a id="more"></a>
+
 <h3 id="算法实现"><a href="#算法实现" class="headerlink" title="算法实现"></a>算法实现</h3>]]></content>
   </entry>
   <entry>
     <title>Java 学习笔记(二)</title>
     <url>/2020/01/16/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%BA%8C/</url>
-    <content><![CDATA[<h2 id="遍历数组操作"><a href="#遍历数组操作" class="headerlink" title="遍历数组操作"></a>遍历数组操作</h2><h3 id="通过-for-循环遍历数组"><a href="#通过-for-循环遍历数组" class="headerlink" title="通过 for 循环遍历数组"></a>通过 for 循环遍历数组</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [] ns = &#123;<span class="number">1</span>,<span class="number">4</span>,<span class="number">9</span>,<span class="number">16</span>,<span class="number">25</span>&#125;;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; ns.length;i++&gt;)&#123;</span><br><span class="line">            <span class="keyword">int</span> n = ns[i];</span><br><span class="line">            System.out.println(n);</span><br><span class="line">        &#125;<span class="comment">//该方法变量n拿到的是元素在数组中的索引</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="遍历数组操作"><a href="#遍历数组操作" class="headerlink" title="遍历数组操作"></a>遍历数组操作</h2><h3 id="通过-for-循环遍历数组"><a href="#通过-for-循环遍历数组" class="headerlink" title="通过 for 循环遍历数组"></a>通过 for 循环遍历数组</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [] ns = &#123;<span class="number">1</span>,<span class="number">4</span>,<span class="number">9</span>,<span class="number">16</span>,<span class="number">25</span>&#125;;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; ns.length;i++&gt;)&#123;</span><br><span class="line">            <span class="keyword">int</span> n = ns[i];</span><br><span class="line">            System.out.println(n);</span><br><span class="line">        &#125;<span class="comment">//该方法变量n拿到的是元素在数组中的索引</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><a id="more"></a>
 <h3 id="通过-for-each-循环遍历数组"><a href="#通过-for-each-循环遍历数组" class="headerlink" title="通过 for each 循环遍历数组"></a>通过 for each 循环遍历数组</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [] ns = &#123;<span class="number">1</span>,<span class="number">4</span>,<span class="number">9</span>,<span class="number">16</span>,<span class="number">25</span>&#125;;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> n : ns)&#123;</span><br><span class="line">            System.out.println(n);</span><br><span class="line">        &#125;<span class="comment">//该方法变量n拿到的直接为数组中的元素</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="Arrays-toString-方法"><a href="#Arrays-toString-方法" class="headerlink" title="Arrays.toString()方法"></a>Arrays.toString()方法</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Arrays;<span class="comment">//导入工具</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span>[] ns = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">9</span>,<span class="number">16</span>&#125;;</span><br><span class="line">        System.out.println(Arrays.toString(ns));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
@@ -21,54 +21,54 @@
     <content><![CDATA[<h1 id="Windows10下搭建hexo博客"><a href="#Windows10下搭建hexo博客" class="headerlink" title="Windows10下搭建hexo博客"></a>Windows10下搭建hexo博客</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ol>
 <li>进入<a href="https://git-scm.com/" target="_blank" rel="noopener">Git官网</a>,或直接<a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/23216272/71c5a100-00d6-11ea-822c-0617e3aba1d7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20191113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191113T023831Z&X-Amz-Expires=300&X-Amz-Signature=0b309a0c0ffa097c60e68638cf898450ed5aadb34a9dfa912eff45d610bac9c5&X-Amz-SignedHeaders=host&actor_id=57254384&response-content-disposition=attachment%3B%20filename%3DGit-2.24.0.2-64-bit.exe&response-content-type=application%2Foctet-stream" target="_blank" rel="noopener">点击此处</a>开始下载</li>
 <li>全部默认安装</li>
-<li>安装完成后会在开始菜单出现<br><img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113104603.png" alt=""></li>
-</ol>
+<li>安装完成后会在开始菜单出现<br><img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113104603.png" alt></li>
+</ol><a id="more"></a>
 <h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><ol>
 <li>进入<a href="http://nodejs.cn/" target="_blank" rel="noopener">nodejs中文网</a>，或<a href="https://npm.taobao.org/mirrors/node/v12.13.0/node-v12.13.0-x64.msi" target="_blank" rel="noopener">点击此处</a>下载64位安装包</li>
 <li>全部默认安装</li>
 <li>打开上一步图片中的Git Bash，输入  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
-<li>查看nodejs是否安装成功<br>若结果出现  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113105727.png" alt="">]<br>则安装成功</li>
+<li>查看nodejs是否安装成功<br>若结果出现  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113105727.png" alt>]<br>则安装成功</li>
 </ol>
 <h2 id="全局安装cnpm"><a href="#全局安装cnpm" class="headerlink" title="全局安装cnpm"></a>全局安装cnpm</h2><ol>
 <li>在Git Bash下输入   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
  等待安装完成  </li>
 <li>输入<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
-若出现版本号则安装成功  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113110535.png" alt=""></li>
+若出现版本号则安装成功  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113110535.png" alt></li>
 </ol>
 <h2 id="安装hexo框架"><a href="#安装hexo框架" class="headerlink" title="安装hexo框架"></a>安装hexo框架</h2><ol>
 <li>输入<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 进行安装</li>
 <li>输入<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-若出现版本号则安装成功<br><img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113110916.png" alt=""></li>
+若出现版本号则安装成功<br><img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113110916.png" alt></li>
 </ol>
 <h2 id="初始化hexo博客"><a href="#初始化hexo博客" class="headerlink" title="初始化hexo博客"></a>初始化hexo博客</h2><ol>
-<li><p>在某一位置(如在D盘根目录下)新建一文件夹(如命名为 hexo)<img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113111428.png" alt=""></p>
+<li><p>在某一位置(如在D盘根目录下)新建一文件夹(如命名为 hexo)<img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113111428.png" alt></p>
 </li>
 <li><p>右键打开Git Bash<br>输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-<p> 此时文件夹中出现以下内容  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113111827.png" alt=""></p>
+<p> 此时文件夹中出现以下内容  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113111827.png" alt></p>
 </li>
 </ol>
 <ol start="3">
 <li><p>启动博客<br>输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p> 出现<br> <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113112223.png" alt=""></p>
+<p> 出现<br> <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113112223.png" alt></p>
 <p> 将’’<a href="http://localhost:4000&quot;输入浏览器网址框中即可在本地访问" target="_blank" rel="noopener">http://localhost:4000&quot;输入浏览器网址框中即可在本地访问</a></p>
 </li>
 <li><p>输入”Crtl + C”断开</p>
 </li>
 </ol>
 <h2 id="将hexo博客部署到Github上"><a href="#将hexo博客部署到Github上" class="headerlink" title="将hexo博客部署到Github上"></a>将hexo博客部署到Github上</h2><ol>
-<li><p>创建自己的Github账号后在页面右上角点击New repository新建一个仓库 <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113112758.png" alt=""></p>
+<li><p>创建自己的Github账号后在页面右上角点击New repository新建一个仓库 <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113112758.png" alt></p>
 </li>
-<li><p>按照下图格式进行命名  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113113044.png" alt=""><br>最好和用户名相同</p>
+<li><p>按照下图格式进行命名  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113113044.png" alt><br>最好和用户名相同</p>
 </li>
 <li><p>在hexo目录下安装deployer插件</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
 <li><p>设置_config.yml 文件<br>输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim _config.yml</span><br></pre></td></tr></table></figure>
-<p>在文件最底部内容按图进行配置  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113113710.png" alt=""></p>
-<p> 启动第二项 repo 为你的GitHub仓库地址位置如下图所示，复制粘贴即可<img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113113829.png" alt=""></p>
+<p>在文件最底部内容按图进行配置  <img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113113710.png" alt></p>
+<p> 启动第二项 repo 为你的GitHub仓库地址位置如下图所示，复制粘贴即可<img src="https://pic-soulauv.oss-cn-beijing.aliyuncs.com/TIM%E5%9B%BE%E7%89%8720191113113829.png" alt></p>
 </li>
 <li><p>输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
@@ -83,7 +83,7 @@
 <li>JVM(Java Virtual Machine)即Java虚拟机,Java技术的核心,与Java最重要的跨平台特性息息相关</li>
 <li>JDK(Java Development Kit)即Java开发工具包</li>
 <li>JRE(Java Runtime Environment)即Java运行环境   </li>
-</ul>
+</ul><a id="more"></a>
 <hr>
 <h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <hr>
@@ -490,7 +490,7 @@
 <td>Ctrl + Shift + P</td>
 <td>打开命令行</td>
 </tr>
-</tbody></table>
+</tbody></table><a id="more"></a>
 <h2 id="Markdown-常用操作"><a href="#Markdown-常用操作" class="headerlink" title="Markdown 常用操作"></a>Markdown 常用操作</h2><table>
 <thead>
 <tr>
