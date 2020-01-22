@@ -439,23 +439,12 @@
 <td>&lt;=</td>
 <td>小于等于</td>
 </tr>
-<tr>
-<td>- 双目运算符: 布尔表达式? 表达式 1 : 表达式 2</td>
-<td></td>
-</tr>
-<tr>
-<td>如果布尔表达式的值为true 则执行表达式1, 否则执行表达式2</td>
-<td></td>
-</tr>
-<tr>
-<td>- ==和!=适用于所有的基本数据类型，其他关系运算符不适用于boolean，因为 boolean 值只有true和false，比较没有任何意义。</td>
-<td></td>
-</tr>
-<tr>
-<td>- ==和!=也适用于所有对象，可以比较对象的引用是否相同。</td>
-<td></td>
-</tr>
 </tbody></table>
+<ul>
+<li>双目运算符: 布尔表达式? 表达式 1 : 表达式 2<br>如果布尔表达式的值为true 则执行表达式1, 否则执行表达式2</li>
+<li>==和!=适用于所有的基本数据类型，其他关系运算符不适用于boolean，因为 boolean 值只有true和false，比较没有任何意义。</li>
+<li>==和!=也适用于所有对象，可以比较对象的引用是否相同。</li>
+</ul>
 <hr>
 <h2 id="方法-函数"><a href="#方法-函数" class="headerlink" title="方法(函数)"></a>方法(函数)</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">访问修饰符 返回值类型 方法名(参数列表)&#123;</span><br><span class="line">    方法体</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>如</p>
