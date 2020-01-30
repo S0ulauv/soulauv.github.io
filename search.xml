@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2019年的总结</title>
-    <url>/2020/01/28/2019%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>CentOS 下搭建 Minecraft 服务器</title>
     <url>/2020/01/22/CentOS-%E4%B8%8B%E6%90%AD%E5%BB%BA-Minecraft-%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<p>今天下午一觉醒来，照例查看 QQ 消息，看到 XG 发来一条消息，想要搞一个 Minecraft 的服务器大家一起玩一玩。之前刚租下服务器时我便有此想法，也曾尝试折腾一番，但最后苦于没有同好一起游玩，遂放弃。今遇此良机，便尝试一下，顺便加强一下自己对于 Linux 命令的掌握.  </p><a id="more"></a>
